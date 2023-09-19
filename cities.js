@@ -3,19 +3,13 @@ const cities = [
     "id": "1",
     "img": "https://images.pexels.com/photos/2438323/pexels-photo-2438323.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "description":
-      "Buenos Aires, a vibrant metropolis in Argentina, pulses with rich cultural diversity. Iconic architecture, like the Teatro Colon, complements bustling street markets and lush parks. Tango rhythms echo in its soul, as art, gastronomy, and history intertwine. From historic neighborhoods like San Telmo to modern skyscrapers in Puerto Madero, Buenos Aires thrives as a passionate blend of tradition and innovation.",
+    "Buenos Aires, a vibrant metropolis in Argentina, pulses with rich cultural diversity. Iconic architecture, like the Teatro Colon, complements bustling street markets and lush parks. Tango rhythms echo in its soul, as art, gastronomy, and history intertwine. From historic neighborhoods like San Telmo to modern skyscrapers in Puerto Madero, Buenos Aires thrives as a passionate blend of tradition and innovation.",
     "city": "Buenos Aires",
     "country": "Argentina",
     "language": "Spanish",
     "currency": "Argentine Peso (ARS)",
     "flag": "https://proyectoviajero.com/wp-content/uploads/2021/03/Bandera-de-Argentina.svg",
-    "continent": "South America",
-    "attractions": [
-      "Obelisco",
-      "Zanjón de Granados",
-      "Plaza de Mayo",
-      "Teatro Colón",
-    ],
+    "continent": "South America"
   },
   {
     "id": "2",
@@ -27,13 +21,7 @@ const cities = [
     "language": "French",
     "currency": "Euro (EUR)",
     "flag": "https://proyectoviajero.com/wp-content/uploads/2021/03/Bandera-de-Francia.svg",
-    "continent": "Europe",
-    "attractions": [
-      "Eiffel Tower",
-      "Louvre Museum",
-      "Notre-Dame Cathedral",
-      "Champs-Élysées",
-    ],
+    "continent": "Europe"
   },
   {
     "id": "3",
@@ -45,13 +33,7 @@ const cities = [
     "language": "English",
     "currency": "United States Dollar (USD)",
     "flag": "https://proyectoviajero.com/wp-content/uploads/2021/03/Bandera-de-Estados-Unidos.svg",
-    "continent": "North America",
-    "attractions": [
-      "Times Square",
-      "Statue of Liberty",
-      "Central Park",
-      "Empire State",
-    ],
+    "continent": "North America"
   },
   {
     "id": "4",
@@ -63,8 +45,7 @@ const cities = [
     "language": "Japanese",
     "currency": "Japanese Yen (JPY)",
     "flag": "https://proyectoviajero.com/wp-content/uploads/2021/03/Bandera-de-Japon.svg",
-    "continent": "Asia",
-    "attractions": ["Tokyo Tower", "Senso-ji Temple", "Harajuku", "Ueno Park"],
+    "continent": "Asia"
   },
   {
     "id": "5",
@@ -76,13 +57,7 @@ const cities = [
     "language": "Portuguese",
     "currency": "Brazilian Real (BRL)",
     "flag": "https://proyectoviajero.com/wp-content/uploads/2021/03/Bandera-de-Brasil.svg",
-    "continent": "South America",
-    "attractions": [
-      "Christ the Redeemer",
-      "Copacabana Beach",
-      "Sugarloaf Mountain",
-      "Sambadrome",
-    ],
+    "continent": "South America"
   },
   {
     "id": "6",
@@ -94,13 +69,7 @@ const cities = [
     "language": "Italian",
     "currency": "Euro (EUR)",
     "flag": "https://proyectoviajero.com/wp-content/uploads/2021/03/Italia.svg",
-    "continent": "Europe",
-    "attractions": [
-      "Colosseum",
-      "St. Peter's Basilica",
-      "Roman Forum",
-      "Trevi Fountain",
-    ],
+    "continent": "Europe"
   },
   {
     "id": "7",
@@ -112,13 +81,7 @@ const cities = [
     "language": "Arabic",
     "currency": "Egyptian Pound (EGP)",
     "flag": "https://proyectoviajero.com/wp-content/uploads/2021/03/Bandera-de-Egipto.svg",
-    "continent": "Africa",
-    "attractions": [
-      "Pyramids of Giza",
-      "Great Sphinx",
-      "Egyptian Museum",
-      "Saladin Citadel",
-    ],
+    "continent": "Africa"
   },
   {
     "id": "8",
@@ -130,13 +93,7 @@ const cities = [
     "language": "Thai",
     "currency": "Thai Baht (THB)",
     "flag": "https://proyectoviajero.com/wp-content/uploads/2021/03/Bandera-de-Tailandia.svg",
-    "continent": "Asia",
-    "attractions": [
-      "Temple of the Emerald Buddha",
-      "Damnoen Saduak Floating Market",
-      "Grand Palace",
-      "Khao San Road",
-    ],
+    "continent": "Asia"
   },
   {
     "id": "9",
@@ -148,13 +105,7 @@ const cities = [
     "language": "English",
     "currency": "Australian Dollar (AUD)",
     "flag": "https://proyectoviajero.com/wp-content/uploads/2021/03/Bandera-de-Australia.svg",
-    "continent": "Oceania",
-    "attractions": [
-      "Sydney Opera House",
-      "Sydney Harbour Bridge",
-      "Bondi Beach",
-      "Taronga Zoo",
-    ],
+    "continent": "Oceania"
   },
   {
     "id": "10",
@@ -166,13 +117,7 @@ const cities = [
     "language": "Turkish",
     "currency": "Turkish Lira (TRY)",
     "flag": "https://proyectoviajero.com/wp-content/uploads/2021/03/Bandera-de-Turquia.svg",
-    "continent": "Europe/Asia (Transcontinental)",
-    "attractions": [
-      "Hagia Sophia",
-      "Blue Mosque",
-      "Topkapi Palace",
-      "Grand Bazaar",
-    ],
+    "continent": "Europe/Asia (Transcontinental)"
   },
   {
     "id": "11",
@@ -184,13 +129,7 @@ const cities = [
     "language": "Afrikaans, English, Xhosa, and others",
     "currency": "South African Rand (ZAR)",
     "flag": "https://proyectoviajero.com/wp-content/uploads/2021/03/Bandera-de-Sudafrica.svg",
-    "continent": "Africa",
-    "attractions": [
-      "Table Mountain",
-      "Cape of Good Hope",
-      "Robben Island",
-      "Kirstenbosch National Botanical Garden",
-    ],
+    "continent": "Africa"
   },
   {
     "id": "12",
@@ -202,13 +141,7 @@ const cities = [
     "language": "English, French",
     "currency": "Canadian Dollar (CAD)",
     "flag": "https://proyectoviajero.com/wp-content/uploads/2021/03/Bandera-de-Canada.svg",
-    "continent": "North America",
-    "attractions": [
-      "Stanley Park",
-      "Granville Island",
-      "Vancouver Aquarium",
-      "Capilano Suspension Bridge",
-    ],
+    "continent": "North America"
   },
   {
     "id": "13",
@@ -220,13 +153,7 @@ const cities = [
     "language": "Dutch",
     "currency": "Euro (EUR)",
     "flag": "https://proyectoviajero.com/wp-content/uploads/2021/03/Bandera-de-Paises-Bajos.svg",
-    "continent": "Europe",
-    "attractions": [
-      "Van Gogh Museum",
-      "Anne Frank House",
-      "Red Light District",
-      "Canals of Amsterdam",
-    ],
+    "continent": "Europe"
   },
   {
     "id": "14",
@@ -238,8 +165,7 @@ const cities = [
     "language": "Arabic",
     "currency": "United Arab Emirates Dirham (AED)",
     "flag": "https://proyectoviajero.com/wp-content/uploads/2021/03/Bandera-de-Emiratos-Arabes-Unidos.svgs",
-    "continent": "Asia",
-    "attractions": ["Burj Khalifa", "Burj Al Arab", "Palm Jumeirah", "Gold Souk"],
+    "continent": "Asia"
   },
   {
     "id": "15",
@@ -251,13 +177,7 @@ const cities = [
     "language": "Arabic, Berber",
     "currency": "Moroccan Dirham (MAD)",
     "flag": "https://proyectoviajero.com/wp-content/uploads/2021/03/Bandera-de-Marruecos.svg",
-    "continent": "Africa",
-    "attractions": [
-      "Marrakech Medina",
-      "Jemaa el-Fnaa Square",
-      "Majorelle Garden",
-      "Bahia Palace",
-    ],
+    "continent": "Africa"
   },
 ];
 

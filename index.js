@@ -7,13 +7,14 @@ import './config/database.js'
 // genero el servidor (instancia de express)
 const server = express();
 
-server.use(cors());
+server.use(cors()); 
+
 server.use(express.json());
 
 server.use('/api', indexRouter);
 
-server.get("/", (request, response, next) => {
-  response.send("Welcome to the jungle en /");
+server.get("/", (req, res, next) => {
+  res.send("Welcome en /");
 });
 
 server.listen(process.env.PORT, () => {console.log("Server running... Port " + process.env.PORT);});

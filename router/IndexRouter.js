@@ -1,13 +1,16 @@
 import { Router } from 'express';
 import citiesRouter from './CitiesRouter.js';
+import itinerariesRouter from './itinerariesRouter.js';
+
 
 const indexRouter = Router();
 
-indexRouter.get('/', (request, response, next) => {
-  response.send('Welcome to the jungle en /api');
+indexRouter.get('/', (req, res, next) => {
+  res.send('Welcome /api');
 });
 
 indexRouter.use('/cities', citiesRouter)
+indexRouter.use("/itineraries", itinerariesRouter);
 
 
 

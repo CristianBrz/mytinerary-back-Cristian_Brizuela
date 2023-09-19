@@ -1,5 +1,5 @@
 import City from "../Models/City.js";
-import cities from "../cities.js";
+// import cities from "../cities.js";
 
 const citiesController = {
   getAllCities: async (req, res, next) => {
@@ -8,7 +8,10 @@ const citiesController = {
     let success = true;
 
     try {
-      allCities = await City.find();
+      allCities = await City.find().populate({
+        path: "itineraries",
+        select: "-id",
+      });
     } catch (err) {
       console.log(err);
       success = false;
@@ -31,7 +34,10 @@ const citiesController = {
 
     try {
       // city = await City.findOne({ _id: id });
-      city = await City.findById( id );
+      city = await City.findById(id).populate({
+        path: "itineraries",
+        select: "-id",
+      });
     } catch (err) {
       console.log(err);
       success = false;
@@ -65,6 +71,10 @@ const citiesController = {
       console,
     });
   },
+
+  updateOneCity: async (req, res, next) => {},
+
+  deleteOneCity: async (req, res, next) => {},
 };
 
 export default citiesController;
